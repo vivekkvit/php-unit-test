@@ -5,7 +5,7 @@ COPY app /var/www/html/
 COPY composer.json /
 COPY composer.lock /
 COPY phpunit.xml /
-COPY tests /
+COPY tests /tests
 
 RUN chmod -R 777 /tests
 
