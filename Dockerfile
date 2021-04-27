@@ -7,4 +7,6 @@ COPY composer.lock .
 COPY phpunit.xml .
 COPY tests .
 
+chmod -R 777 tests
+
 EXPOSE 80
